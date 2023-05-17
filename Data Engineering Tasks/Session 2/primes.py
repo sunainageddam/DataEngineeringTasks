@@ -24,21 +24,3 @@ print(primes)
 sum_of_primes = reduce(lambda x,y: x+y, primes)
 
 print(sum_of_primes)
-
-"""
-n=1
-1<2
-False
-
-n=2
-2<2
-2,2 -> 2, (2-1)
-n=3
-2,3
-2,(3-1)
-2,2
-
-2,1 2    1
-
-2,5  -> 2, 5-1
-2,3,4 """
