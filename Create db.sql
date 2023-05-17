@@ -49,7 +49,7 @@ CREATE TABLE skillset (
 -- Insert some sample data into the skillset table
 INSERT INTO skillset (id, skill_name, proficiency_level)
 VALUES (123, 'Java', 'Intermediate'),
-    	 (456, 'HTML', 'Advanced'),
+    	(456, 'HTML', 'Advanced'),
        (789, 'Photoshop', 'Advanced'),
        (213, 'Illustrator', 'Intermediate'),
        (546, 'Data Analysis', 'Advanced'),
@@ -70,7 +70,7 @@ CREATE TABLE candidate_skillset (
 -- Insert some sample data into the candidate_skillset table
 INSERT INTO candidate_certificates (candidate_id, skillset_id, years_experience, last_used)
 VALUES (1, 123, 3, '2023-01-16'),
-    	 (2, 456, 4, '2022-09-21'),
+    	(2, 456, 4, '2022-09-21'),
        (3, 789, 2, '2023-02-03'),
        (4, 213, 5, '2022-10-17'),
        (5, 546, 3, '2023-03-20'),
